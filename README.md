@@ -2,8 +2,9 @@
 
 ## Overview
 
-Implementation of Discerete Search Algorithm **Weighted A*** **(WA*)** and Sampling based Search Algorithm **Informed RRT***. 
+Implementation of Discerete Search Algorithm **Weighted-A*** (**WA***) and Sampling based Search Algorithm **Informed RRT***. 
 
+The usual **A*** algorithm bases heuristic upon the manhattan distance to the goal as a bias but in **WA*** there is a higher bias given to a path in the general direction towards the goal by using a higher value of heuristic assigned through a weighted heuristic **epsilon > 1**
 
 Files included:
 
